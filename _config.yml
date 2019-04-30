@@ -1,11 +1,49 @@
-title: "Anasayfa"
-email: null
-description: ''
-baseurl: ''
-url: 'http://tkeskin.github.io'
+name: tkeskin
+title: Yeşil baş ördek olsam su içmem gölünüzden
+description: Yıllar sonra gelen ...
+logo: assets/images/logo.png
+favicon: assets/images/logo.png
 github_username: tkeskin
-markdown: kramdown
-theme: minima
+url: 'http://tkeskin.github.io'
+include:
+  - _pages
+permalink: '/:title/'
+authors:
+  tkeskin:
+    name: tkeskin
+    display_name: tkeskin
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: tkeskin@gmail.com
+    description: ''
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
   - jekyll-admin
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+paginate: 5
+paginate_path: '/page:num/'
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+adsense: disabled
+adsense-data-ad-client: ca-pub-3412143450191416
+adsense-data-ad-slot: '1363087678'
+lazyimages: enabled
+exclude:
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
