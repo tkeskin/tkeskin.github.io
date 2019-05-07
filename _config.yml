@@ -38,9 +38,9 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
-adsense: disabled
-adsense-data-ad-client: ca-pub-3412143450191416
-adsense-data-ad-slot: '1363087678'
+adsense: enabled
+adsense-data-ad-client: ca-pub-2367630010898474
+#adsense-data-ad-slot: '1363087678'
 lazyimages: enabled
 exclude:
   - changelog.md
