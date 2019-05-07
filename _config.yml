@@ -6,6 +6,7 @@ favicon: assets/images/logo.png
 github_username: tkeskin
 url: 'http://tkeskin.github.io'
 google_analytics: 'UA-51930769-28'
+disqus: 'tkeskin'
 include:
   - _pages
 permalink: '/:title/'
