@@ -41,7 +41,7 @@ kramdown:
       line_numbers: true
 adsense: enabled
 adsense-data-ad-client: ca-pub-2367630010898474
-#adsense-data-ad-slot: '1363087678'
+adsense-data-ad-slot: '6619221651'
 lazyimages: enabled
 exclude:
   - changelog.md
