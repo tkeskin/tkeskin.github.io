@@ -5,19 +5,56 @@
     <description>Yıllar sonra gelen ...</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 May 2019 22:24:27 +0300</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 22:24:27 +0300</lastBuildDate>
+    <pubDate>Fri, 10 May 2019 18:57:32 +0300</pubDate>
+    <lastBuildDate>Fri, 10 May 2019 18:57:32 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
+        <title>Ubuntu Kurulum Sonrası</title>
+        <description>&lt;p&gt;Ubuntu Kurulum sonrası gerekli olanlar listesi…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;idea&lt;/li&gt;
+  &lt;li&gt;yakuake&lt;/li&gt;
+  &lt;li&gt;kdiff3&lt;/li&gt;
+  &lt;li&gt;vscode&lt;/li&gt;
+  &lt;li&gt;brave&lt;/li&gt;
+  &lt;li&gt;jdk/jd-gui&lt;/li&gt;
+  &lt;li&gt;git/smartgit&lt;/li&gt;
+  &lt;li&gt;docker/gradle&lt;/li&gt;
+  &lt;li&gt;datagrip/postman&lt;/li&gt;
+  &lt;li&gt;vlc/odio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;sonra ekleme yapalım…&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 May 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/ubuntu-kurulum-sonrasi/</link>
+        <guid isPermaLink="true">http://localhost:4000/ubuntu-kurulum-sonrasi/</guid>
+        
+        <category>ubuntu</category>
+        
+        <category>kurulum</category>
+        
+        <category>uygulamalar</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Terminal Kısayollar</title>
-        <description>&lt;p&gt;Ctrl + c : Çalışan process’i sonlandırmak için sıkça kullandığımız kısayoldur.
-Ctrl + d : Halihazırda açık bulunan bash oturmunu kapatıp bir üstte çalıştırılan oturuma geçer; eğer üzerinde çalışan başka oturum yoksa terminal sekmesi kapanır.&lt;/p&gt;
+        <description>&lt;p&gt;Ctrl + c : Çalışan process’i sonlandırmak için sıkça kullandığımız kısayoldur.&lt;/p&gt;
+
+&lt;p&gt;Ctrl + d : Halihazırda açık bulunan bash oturmunu kapatıp bir üstte çalıştırılan oturuma geçer; eğer üzerinde çalışan başka oturum yoksa terminal sekmesi kapanır.&lt;/p&gt;
 
 &lt;p&gt;Ctrl +r : bash geçmişimizde bulunan bir komutu aramaya yarar. Ctrl +r ye bastıktan sonra aramak istediğimiz metni yazınca o metinle eşleşen en son çalıştırdığımız komutu bulabiliriz. Eşleşen daha eski komutları bulmak için tekrar tekrar Ctrl+r ‘ye basmamız gerekir.&lt;/p&gt;
 
 &lt;p&gt;Ctrl +l : Komut satırında kullandığımız clear komutu gibi ekranı temizlemek amacıyla yukarı kaydırır.
-Ctrl +a ve Ctrl +e kısayolları komut satırında kolayca gezinmemizi sağlayan başlıca kısayolardan ikisidir. Ctrl +a kısayolu komut satırındaki imlecimizi satırın başına taşır. Ctrl+e ise imleci satır sonuna taşır.&lt;/p&gt;
+Ctrl +a ve Ctrl +e kısayolları komut satırında kolayca gezinmemizi sağlayan başlıca kısayolardan ikisidir.&lt;/p&gt;
+
+&lt;p&gt;Ctrl +a kısayolu komut satırındaki imlecimizi satırın başına taşır.&lt;/p&gt;
+
+&lt;p&gt;Ctrl+e ise imleci satır sonuna taşır.&lt;/p&gt;
 
 &lt;p&gt;Eğer bir önceki komutta çalıştırdığımız komutun başına sudo yazmayı unuttuysak; “!!” ifadesi geçmişte bulunan en son çalıştırdğımız komutu temsil ettiği için,
 $ sudo !!
@@ -47,6 +84,8 @@ komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&
         <pubDate>Thu, 09 May 2019 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/terminal-kisayollar/</link>
         <guid isPermaLink="true">http://localhost:4000/terminal-kisayollar/</guid>
+        
+        <category>ubuntu</category>
         
         <category>terminal</category>
         
@@ -365,31 +404,6 @@ komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/tree-of-codes/</link>
         <guid isPermaLink="true">http://localhost:4000/tree-of-codes/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Red Riding Hood</title>
-        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/red-riding/</link>
-        <guid isPermaLink="true">http://localhost:4000/red-riding/</guid>
         
         
         <category>Jekyll</category>
