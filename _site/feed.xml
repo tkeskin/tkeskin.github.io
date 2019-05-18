@@ -5,9 +5,33 @@
     <description>Yıllar sonra gelen ...</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 May 2019 07:40:13 +0300</pubDate>
-    <lastBuildDate>Sat, 18 May 2019 07:40:13 +0300</lastBuildDate>
+    <pubDate>Sat, 18 May 2019 07:57:16 +0300</pubDate>
+    <lastBuildDate>Sat, 18 May 2019 07:57:16 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Ataleti Yenenler</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Örnek insanlar, Pes etmeyenler, Güzel hikayeler&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hayallerinin Peşinden Gidenler –&amp;gt; https://youtu.be/C2ZelcvyDqk&lt;/li&gt;
+  &lt;li&gt;0’dan 100 Milyon Dolara –&amp;gt; https://youtu.be/fWr9h8cO5PI&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 18 May 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/ataleti-yenenler/</link>
+        <guid isPermaLink="true">http://localhost:4000/ataleti-yenenler/</guid>
+        
+        <category>HayallerininPeşindenGidenler</category>
+        
+        <category>0'dan100MilyonDolara</category>
+        
+        
+        <category>KonuDışı</category>
+        
+      </item>
     
       <item>
         <title>Telnet ile mail</title>
@@ -169,6 +193,8 @@ komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&
         <link>http://localhost:4000/nerden-baslamali/</link>
         <guid isPermaLink="true">http://localhost:4000/nerden-baslamali/</guid>
         
+        
+        <category>KonuDışı</category>
         
       </item>
     
@@ -428,23 +454,6 @@ komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&
         
         
         <category>Jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>We all wait for summer</title>
-        <description>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
-
-&lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">http://localhost:4000/we-all-wait-for-summer/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
         
       </item>
     
