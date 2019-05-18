@@ -2,7 +2,6 @@
 title: Ubuntu Kurulum Sonrası
 layout: post
 tags: ubuntu kurulum uygulamalar
-image: assets/images/ubuntu.jpg
 ---
 
 Ubuntu Kurulum sonrası gerekli olanlar listesi...

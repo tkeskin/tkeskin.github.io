@@ -34,4 +34,5 @@ Ardırdan(nokta işareti mailimiz tamam oldu, gönder manasına gelmektedir);
 
 > .
 
-İşlem bu kadar.
+İşlem bu kadar. son olarak çıkış için,
+> quit

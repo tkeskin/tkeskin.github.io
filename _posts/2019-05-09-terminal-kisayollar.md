@@ -2,7 +2,6 @@
 title: Terminal Kısayollar
 layout: post
 tags: ubuntu terminal yakuake kısayol
-image: assets/images/yakuake.png
 ---
 
 Ctrl + c : Çalışan process’i sonlandırmak için sıkça kullandığımız kısayoldur.
