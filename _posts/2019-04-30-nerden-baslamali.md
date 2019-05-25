@@ -2,7 +2,7 @@
 title: Nerden Başlamalı ?
 layout: post
 autor: tkeskin
-categories: KonuDışı
+categories: konuDışı
 ---
 
 - Yani diyorum ki mal mal oturma bu yollardan geçmiş insanlar güzel paylaşımlar yapmış/yapıyor aç gözünü yerinde sayma ilgilen araştır...
