@@ -5,8 +5,8 @@
     <description>Yeşil baş ördek olsam su içmem gölünüzden</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 May 2019 16:40:06 +0300</pubDate>
-    <lastBuildDate>Sat, 25 May 2019 16:40:06 +0300</lastBuildDate>
+    <pubDate>Sat, 25 May 2019 16:52:45 +0300</pubDate>
+    <lastBuildDate>Sat, 25 May 2019 16:52:45 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -28,6 +28,62 @@
         
         
         <category>konuDışı</category>
+        
+      </item>
+    
+      <item>
+        <title>Golem (gnt) nedir ?</title>
+        <description>&lt;p&gt;Golem Nedir?
+Golem dünya çapında kendi ağındaki bütün bilgisayar güçlerini bir araya getiren merkeziyetsiz bir süper bilgisayardır. Golem ekosisteminde bilgisayarınızı karmaşık hesaplamalar ya da görevler gerçekleştirmek için ek güce ihtiyaç duyan diğer insanlara ödünç verebilirsiniz. Golem, tıpkı Uber ve Airbnb gibi kullanılmayan ya da az kullanılan kaynaklarla kullanıcılarının ekstra para kazanmasını sağlayan bir platform.&lt;/p&gt;
+
+&lt;p&gt;Golem sayesinde bilgisayarınızın hız sıkıntısı yaşadığı durumlarda sorunu derhal çözmek için ağdan işlem gücü satın alabilirsiniz. Bu platform özellikle rutin olarak yoğun hesaplamalar gerektiren Doğal Dil İşleme, Yapay Zeka gibi uygulamalarda kullanılabilir.&lt;/p&gt;
+
+&lt;p&gt;Golem Nasıl Çalışıyor?
+Golem ağının nasıl çalıştığını anlamak için gelin ağı kullanma isteğinin nasıl gerçekleştirildiğine bir göz atalım&lt;/p&gt;
+
+&lt;p&gt;Şimdi varsayalım ki bir grup ya da kişi bu ağı kullanmak istiyor. (Bu kişi ya da kişilere “isteyen” diyelim) İsteyenimizin uygulamak istediği görev Golem tarafından sağlanan görevle aynı olsun. Eğer değilse “isteyen” görev tanım çerçevesini kullanarak kendi görev kodunu yazmak durumunda oluyor. Ancak bu opsiyon ilk iki versiyonda -Brass ve Clay- mevcut değil. Görev şablonlarının farklı görevler yapması üçüncü sürüm olan Stone’da kullanıma sunulacak.&lt;/p&gt;
+
+&lt;p&gt;Bitci.Com
+Blender ve Luxender ilk Golem versiyonunda aktif olan iki görev şablonu. Şu an böyle olsa da ileride Golem Shop’dan birçok görev şablonu satın alabileceksiniz.&lt;/p&gt;
+
+&lt;p&gt;Örneğimize dönersek, “isteyen” bir şablon seçiyor; görev, görev yöneticisine ekleniyor ve ağ görev hakkındaki bilgileri alıyor.&lt;/p&gt;
+
+&lt;p&gt;(Bilgisayar gücünü sağlayan insanlara da sağlayıcı diyelim.) Sağlayıcı bütün görev tekliflerini alıyor ve en iyi olanı seçiyor. Bu şekilde görev yayınlayan her node’un itibarını kontrol ediyor ve kötü itibarlı olanları reddediyor. “Sağlayıcı” uygun bir teklif bulduğunda “isteyen”e fiyat ve bilgisayar gücü bilgisini gönderiyor. Buna karşılık, “isteyen” sağlayıcının çalışmak için yeterince yüksek bir itibara sahip olduğunu doğruluyor.&lt;/p&gt;
+
+&lt;p&gt;Her şey tamamsa sağlayıcı bütün gerekli kaynakları IPFS üzerinden alıyor ve görev bilgisayarında hesaplamalarına başlıyor. Görev tamamlandığında “isteyen”e sonuçlar IPFS ağı üzerinden geri gönderiliyor.&lt;/p&gt;
+
+&lt;p&gt;Daha sonra, görev yöneticisi sonuçları doğrulamak için bilgileri doğru node’a iletiyor. Ayrıca “isteyen” fazla doğrulama için bunu birçok node’a göndermeyi de seçebiliyor.&lt;/p&gt;
+
+&lt;p&gt;Son olarak ödeme sistemi Ethereum akıllı kontratı aracılığıyla gerçekleşiyor ve varlıklar isteyen’den sağlayan’a gönderiliyor.&lt;/p&gt;
+
+&lt;p&gt;Ek Özellikler:
+Yukarıda özetlenen senaryonun dışında Golem iki özelliği de bünyesinde barındırıyor:&lt;/p&gt;
+
+&lt;p&gt;Uygulama Kaydı: Geliştiricilerin Golem uygulamalarını paylaşabilmeleri için geliştirilmiş bir Ethereum akıllı kontratı. Bu kontrat işlemleri isteyen ve sağlayanlar için daha kolay hale getiriyor.
+İşlem Taslağı: Kendi geliştirdiği Golem uygulaması için bir işlem modeli uygularken geliştiricilerin uygulaması gereken bir dizi gereksinimden oluşuyor.
+Golem Network Token (GNT)
+GNT, bilgisayar gücü satmak ya da satın almak için kullanılabilecek bir ERC20 tokenı. Bir sağlayan uygun gördüğü her durumda GNT kiralama fiyatını belirleyebiliyor çünkü Golem kendi içerisinde fiyat dengesini bulabilecek bir pazar. Ayrıca bir sağlayıcı olmak için yapılan uygulama kaydı da GNT ile yapılıyor.&lt;/p&gt;
+
+&lt;p&gt;GNT takımı 1.000.000.000 adet GNT üretti ve bunun %82’si ICO ile katılımcılara satıldı.&lt;/p&gt;
+
+&lt;p&gt;Sonuç
+Golem bir dağıtılmış süper bilgisayar ve bilgisayar gücü pazarı. 2016’dan beri aktif ve bir aralar piyasa değeri olarak ilk 10 kripto para içerisinde yer alıyordu ve son zamanlarda sıralamada düşüşler yaşadı. Elbette bu takımın çalışmadığı ve Golem’i geliştirmediği anlamına gelmiyor. Son zamanlarda Golem ekibi hem bu ekosistemi geliştirmeye hem de teknik destek, topluluk sosyal yardımı ve dünya çağındaki erişimlerini genişletmeye çalışıyor. SONM gibi benzer projeler ile içinde bulunduğu rekabetten önde ayrılırsa Golem önümüzdeki yıllarda şu an sahip olduğundan çok daha büyük başarılarla adından söz ettirebilir.&lt;/p&gt;
+
+&lt;p&gt;GNT’lerimi Nerede Saklayabilirim?
+GNT’lerinizi ERC20 desteği olan herhangi bir cüzdanda saklayabilirsiniz. En popüler ERC20 destekli cüzdanlar ise tabi ki MyEtherWallet ve MetaMask.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 May 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/golem-gnt-nedir/</link>
+        <guid isPermaLink="true">http://localhost:4000/golem-gnt-nedir/</guid>
+        
+        <category>golem</category>
+        
+        <category>gnt</category>
+        
+        <category>nedir</category>
+        
+        
+        <category>kripto</category>
         
       </item>
     
@@ -426,31 +482,6 @@ komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/education/</link>
         <guid isPermaLink="true">http://localhost:4000/education/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Accumulated experience of social living</title>
-        <description>&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-
-&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/acumulated-experience/</link>
-        <guid isPermaLink="true">http://localhost:4000/acumulated-experience/</guid>
         
         
         <category>Jekyll</category>
