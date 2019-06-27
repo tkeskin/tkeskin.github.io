@@ -15,7 +15,7 @@ authors:
     name: tkeskin
     display_name: tkeskin
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: tkeskin@gmail.com
+    email: 
     description: ''
 plugins:
   - jekyll-paginate

@@ -2,6 +2,7 @@
 title: Hackerrank
 layout: post
 tags: hackerrankSoruları hackerrankCevapları
+featured: true
 ---
 
 Soruları ve Cevapları

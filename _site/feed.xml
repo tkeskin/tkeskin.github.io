@@ -5,9 +5,106 @@
     <description>Yeşil baş ördek olsam su içmem gölünüzden</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Jun 2019 21:31:38 +0300</pubDate>
-    <lastBuildDate>Wed, 26 Jun 2019 21:31:38 +0300</lastBuildDate>
+    <pubDate>Thu, 27 Jun 2019 20:39:16 +0300</pubDate>
+    <lastBuildDate>Thu, 27 Jun 2019 20:39:16 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Yaml nedir ?</title>
+        <description>&lt;p&gt;YAML dil bağımsız bir veri değişim formatıdır. Herhangi bir programlama dili ile oluşturulan nesneler,  YAML formatında kolaylıkla temsil edilebilmektedir. YAML geniş veri tipi desteği sayesinde tüm diller arasında ortak olarak kullanılabilir olmakla birlikte, ayrıca insan gözüyle bakıldığında kolay okunabilir bir yapısı mevcuttur.&lt;/p&gt;
+
+&lt;p&gt;YAML ile kompleks nesne yapıları temsil edilebileceği gibi, konfigürasyon amaçlı kullanılan formatlara alternatif olarak da kullanılabilmektedir (Örneğin: .xml, .json,  .properties biçimleri).&lt;/p&gt;
+
+&lt;p&gt;YAML vs XML vs JSON
+XML yazılım sektöründe yaygın olarak kullanılan bir teknoloji. Birçok kullanım alanı olmakla birlikte, kompleks nesnelerin temsil edilmesi, konfigürasyon amaçlı olarak kullanılması en yaygın kullanım biçimidir. Örneğin: Java ekosisteminde konfigürasyon amaçlı bilgiler ağırlıklı olarak XML dosyalarında tutulmaktadır.&lt;/p&gt;
+
+&lt;p&gt;JSON formatı da, hem kompleks nesnelerin temsili hem de konfigürasyon amaçlı olarak kullanılan bir veri temsil edici biçimdir. Örneğin: JavaScript ekosisteminde konfigürasyon amacıyla ağırlıklı olarak JSON biçimli dosyalar kullanılmaktadır.&lt;/p&gt;
+
+&lt;p&gt;XML formatı, ne insan gözüyle kolay okunabilirdir, ne de insan eliyle kolay yazılabilirdir. JSON formatı ise, insan gözüyle kolay okunabilirdir fakat insan eliyle o kadar da kolay yazılabilir değildir. YAML formatı ise,  bu iki formata göre insan gözüyle daha kolay okunabilir ve insan eliyle daha kolay yazılabilir bir sözdizimi sunmaktadır&lt;/p&gt;
+
+&lt;p&gt;Örneğin;
+Aşağıda sırasıyla 3 farklı formatta XML, JSON ve YAML örneği yer almaktadır. Bu 3 örnek de aynı veri düzenini barındırmaktadır. Görüldüğü üzere XML biçimi oldukça komleks, ne kolay okunabilir ne de kolay yazılabilir.&lt;/p&gt;
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;root&gt;
+    &lt;language&gt;java&lt;/language&gt;
+    &lt;jdk&gt;oraclejdk8&lt;/jdk&gt;
+    &lt;os&gt;linux&lt;/os&gt;
+    &lt;script&gt;mvn clean install&lt;/script&gt;
+    &lt;before_script&gt;sudo apt-get update -qq&lt;/before_script&gt;
+    &lt;before_script&gt;sudo apt-get install -y rpm&lt;/before_script&gt;
+    &lt;deploy&gt;
+        &lt;provider&gt;releases&lt;/provider&gt;
+        &lt;skip_cleanup&gt;true&lt;/skip_cleanup&gt;
+        &lt;on&gt;
+            &lt;tags&gt;true&lt;/tags&gt;
+            &lt;all_branches&gt;true&lt;/all_branches&gt;
+            &lt;repo&gt;rahmanusta/AsciidocFX&lt;/repo&gt;
+        &lt;/on&gt;
+    &lt;/deploy&gt;
+&lt;/root&gt;
+&lt;p&gt;JSON biçimi ise XML’e göre gerçekten kolay okunabiliyor. Fakat yazım sırasındaki {} [] “” , karakterlerini sıkça yazmak yazımı biraz zorlaştırıyor.&lt;/p&gt;
+
+&lt;p&gt;{
+    “language”: “java”,
+    “jdk”: [
+        “oraclejdk8”
+    ],
+    “os”: [
+        “linux”
+    ],
+    “script”: “mvn clean install”,
+    “before_script”: [
+        “sudo apt-get update -qq”,
+        “sudo apt-get install -y rpm”
+    ],
+    “deploy”: {
+        “provider”: “releases”,
+        “skip_cleanup”: true,
+        “on”: {
+            “tags”: true,
+            “all_branches”: true,
+            “repo”: “rahmanusta/AsciidocFX”
+        }
+    }
+}
+YAML formatı ise oldukça sade, hem kolay okunabiliyor hem de kolay yazılabiliyor. Ayrıca satır sayısı olarak genelde daha az yer kaplıyor.&lt;/p&gt;
+
+&lt;p&gt;language: java
+jdk:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;oraclejdk8
+os:&lt;/li&gt;
+  &lt;li&gt;linux
+script: mvn clean install
+before_script:&lt;/li&gt;
+  &lt;li&gt;sudo apt-get update -qq&lt;/li&gt;
+  &lt;li&gt;sudo apt-get install -y rpm
+deploy:
+provider: releases
+skip_cleanup: true
+on:
+  tags: true
+  all_branches: true
+  repo: rahmanusta/AsciidocFX
+Not: XML, JSON, YAML arası dönüşümleri http://codebeautify.org/yaml-to-json-xml-csv adresinden deneyimleyebilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;YAML vs Properties File
+Property dosyaları Java ekosisteminde kullanılan, konfigürasyon dosyalarıdır. Property dosyaları hem kolay okunabilir hem de kolay  yazılabilirdir. Fakat, properties dosyalarında veriler sadece key -&amp;gt; value biçiminde (map, associative array) tutulabilmektedir. Bu da properties dosyalarının kullanım alanını sınırlı kılmaktadır.&lt;/p&gt;
+
+&lt;p&gt;YAML formatı ise verileri hem key -&amp;gt; value biçiminde hem de dizi biçiminde hem de istenilen derinlikte tutabilmektedir. Bu avantajlı noktalardan bakıldığında, YAML formatı Properties dosyalarına iyi bir alternatif olarak karşımıza çıkmaktadır.&lt;/p&gt;
+
+&lt;p&gt;–alıntıdır.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Jun 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/yaml-nedir/</link>
+        <guid isPermaLink="true">http://localhost:4000/yaml-nedir/</guid>
+        
+        <category>yamlNedir yaml nedir</category>
+        
+        
+      </item>
     
       <item>
         <title>Hackerrank</title>
@@ -419,31 +516,6 @@ komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/powerful-things-markdown-editor/</link>
         <guid isPermaLink="true">http://localhost:4000/powerful-things-markdown-editor/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>The first mass-produced book to deviate from a rectilinear format</title>
-        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/first-mass-produced/</link>
-        <guid isPermaLink="true">http://localhost:4000/first-mass-produced/</guid>
         
         
         <category>Jekyll</category>
