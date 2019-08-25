@@ -5,9 +5,41 @@
     <description>Yeşil baş ördek olsam su içmem gölünüzden...</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Jun 2019 13:36:54 +0300</pubDate>
-    <lastBuildDate>Sat, 29 Jun 2019 13:36:54 +0300</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sun, 25 Aug 2019 12:57:17 +0300</pubDate>
+    <lastBuildDate>Sun, 25 Aug 2019 12:57:17 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Quarkus Nedir Helidon Nedir</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Alternatif server framework arayışı içinde olanlara güzel bir karşılaştırma –&amp;gt; &lt;a href=&quot;https://medium.com/mehmetcemyucel/spring-java-hantal-mi-graalvm-quarkus-giris-241a9614c23a&quot;&gt;Quarkus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ve Oracle Helidon –&amp;gt; &lt;a href=&quot;https://youtu.be/SDI6ci2XsCQ&quot;&gt;Java Libraries for Writing Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Aug 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/quarkus-nedir-helidon-nedir/</link>
+        <guid isPermaLink="true">http://localhost:4000/quarkus-nedir-helidon-nedir/</guid>
+        
+        <category>QuarkusNedir HelidonNedir Quarkus Helidon</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GraphQL nedir GraphQL vs Rest</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Uzun bir aradan sonra (Mac beta update sağolsun jekkly problemleri ile uğraştırdı);&lt;/li&gt;
+  &lt;li&gt;GraphQL hakkında güzel bir sunum –&amp;gt; https://youtu.be/SXaqNuY9mYo&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Aug 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/graphql-nedir-graphql-vs-rest/</link>
+        <guid isPermaLink="true">http://localhost:4000/graphql-nedir-graphql-vs-rest/</guid>
+        
+        <category>GraphQLNedir GraphQLVSrest GraphQLHakkinda</category>
+        
+        
+      </item>
     
       <item>
         <title>Mülakat Soruları</title>
@@ -335,77 +367,6 @@ GNT’lerinizi ERC20 desteği olan herhangi bir cüzdanda saklayabilirsiniz. En 
         
         <category>uygulamalar</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Terminal Kısayollar</title>
-        <description>&lt;p&gt;Ctrl + c : Çalışan process’i sonlandırmak için sıkça kullandığımız kısayoldur.&lt;/p&gt;
-
-&lt;p&gt;Ctrl + d : Halihazırda açık bulunan bash oturmunu kapatıp bir üstte çalıştırılan oturuma geçer; eğer üzerinde çalışan başka oturum yoksa terminal sekmesi kapanır.&lt;/p&gt;
-
-&lt;p&gt;Ctrl +r : bash geçmişimizde bulunan bir komutu aramaya yarar. Ctrl +r ye bastıktan sonra aramak istediğimiz metni yazınca o metinle eşleşen en son çalıştırdığımız komutu bulabiliriz. Eşleşen daha eski komutları bulmak için tekrar tekrar Ctrl+r ‘ye basmamız gerekir.&lt;/p&gt;
-
-&lt;p&gt;Ctrl +l : Komut satırında kullandığımız clear komutu gibi ekranı temizlemek amacıyla yukarı kaydırır.
-Ctrl +a ve Ctrl +e kısayolları komut satırında kolayca gezinmemizi sağlayan başlıca kısayolardan ikisidir.&lt;/p&gt;
-
-&lt;p&gt;Ctrl +a kısayolu komut satırındaki imlecimizi satırın başına taşır.&lt;/p&gt;
-
-&lt;p&gt;Ctrl+e ise imleci satır sonuna taşır.&lt;/p&gt;
-
-&lt;p&gt;Eğer bir önceki komutta çalıştırdığımız komutun başına sudo yazmayı unuttuysak; “!!” ifadesi geçmişte bulunan en son çalıştırdğımız komutu temsil ettiği için,
-$ sudo !!
-ifadesi son çalıştırılan komutun başına sudo ekleyip tekrar çalıştırır. Aynı şekilde eğer terminal geçmişinden başka bir komut çalıştırmak için ,&lt;/p&gt;
-
-&lt;p&gt;$ ![sıra_numarası]
-komutu ile istediğimiz komutun çalıştırılma sırasına göre numarasını girerek tekrardan çalıştırabiliriz.&lt;/p&gt;
-
-&lt;p&gt;Ctrl+w kısayolu Komut satırının imleçten öncesini önceki whitespace karaktere kadar keser ve panoya (clipboard) kopyalar.
-Ctrl+y kısayolu panoda bulunan metini ekrana yapıştırmak için kullanılır.
-Ctrl+k kısayolu komut satırının imleçten sonrasını keser ve panoya (clipboard) kopyalar.
-Ctrl+u kısayolu komut satırının imleçten öncesini keser ve panoya (clipboard) kopyalar.&lt;/p&gt;
-
-&lt;p&gt;Alt+b kısayolu imleci bir önceki kelimenin başına taşır. Alt+f kısayolu imleci bir sonraki kelimenin başına taşır. Bu iki kısayol, bazı karakterleri kelime sonu olarak kabul eder.
-Ctrl +← ile Ctrl +→ kısayolları da aynı şekilde imleci kelime ilerleyerek taşımak için kullanılabilir.
-Ctrl + x + e kısayolu ile komut satırına yazdıklarımızı $EDITOR değişkeninde belirlenmiş text editöründe açıp değiştirme şansı elde ederiz, çok uzun komutlar için kendinizi rahat hissettiğiniz editörü,
-$ export EDITOR=[editor]
-şeklinde “editor” yerine vim, nano, emacs yazıp değiştirebiliriz; varsayılan hali Ubuntu’da nano olarak ayarlanmıştır.&lt;/p&gt;
-
-&lt;p&gt;Bahsettiğim kısayollar Emacs text editörünün kısayolları olup varsayılan olarak bash komut satırında da çalışır halde gelir. Bu tuş seti dışında vi editörünün sunduğu modları ve kısayolları kullanmak isterseniz,&lt;/p&gt;
-
-&lt;p&gt;$ set -o vi
-komutunu yazıp vi kısayol setiyle terminal kullanımına devam edebilirsiniz.&lt;/p&gt;
-
-&lt;p&gt;–alıntıdır…&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 May 2019 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/terminal-kisayollar/</link>
-        <guid isPermaLink="true">http://localhost:4000/terminal-kisayollar/</guid>
-        
-        <category>ubuntu</category>
-        
-        <category>terminal</category>
-        
-        <category>yakuake</category>
-        
-        <category>kısayol</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Nerden Başlamalı ?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Yani diyorum ki mal mal oturma bu yollardan geçmiş insanlar güzel paylaşımlar yapmış/yapıyor aç gözünü yerinde sayma ilgilen araştır…&lt;/li&gt;
-  &lt;li&gt;Burdan başlamayı deneyebilirsin – &amp;gt; &lt;a href=&quot;https://github.com/fatihacet/turkcekaynaklar-com&quot;&gt;Arkadaş güzel bir derleme yapmış,yazıların ve yazarların sana katkıları olacak&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 30 Apr 2019 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/nerden-baslamali/</link>
-        <guid isPermaLink="true">http://localhost:4000/nerden-baslamali/</guid>
-        
-        
-        <category>konuDışı</category>
         
       </item>
     

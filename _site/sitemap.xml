@@ -61,6 +61,14 @@
 <lastmod>2019-06-29T00:00:00+03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/graphql-nedir-graphql-vs-rest/</loc>
+<lastmod>2019-08-25T00:00:00+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/quarkus-nedir-helidon-nedir/</loc>
+<lastmod>2019-08-25T00:00:00+03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/categories</loc>
 </url>
 <url>
@@ -86,5 +94,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page3/</loc>
 </url>
 </urlset>
