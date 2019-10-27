@@ -1,5 +1,5 @@
 ---
-title: Quarkus Nedir Helidon Nedir
+title: Quarkus Nedir ? Helidon Nedir ?
 layout: post
 tag: QuarkusNedir HelidonNedir Quarkus Helidon
 ---

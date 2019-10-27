@@ -1,5 +1,5 @@
 ---
-title: GraphQL nedir GraphQL vs Rest
+title: GraphQL nedir ? GraphQL vs Rest
 layout: post
 tag: GraphQLNedir GraphQLVSrest GraphQLHakkinda
 ---

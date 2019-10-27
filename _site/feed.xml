@@ -5,12 +5,53 @@
     <description>Yeşil baş ördek olsam su içmem gölünüzden...</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Aug 2019 12:57:17 +0300</pubDate>
-    <lastBuildDate>Sun, 25 Aug 2019 12:57:17 +0300</lastBuildDate>
+    <pubDate>Sun, 27 Oct 2019 14:06:30 +0300</pubDate>
+    <lastBuildDate>Sun, 27 Oct 2019 14:06:30 +0300</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>Quarkus Nedir Helidon Nedir</title>
+        <title>j2ee logging nasıl yapılmalı ?</title>
+        <description>&lt;p&gt;Burdan –&amp;gt; &lt;a href=&quot;https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html&quot;&gt;Vakit ayrılmalı,kafa yorulmalı,önemli konu!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Oct 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/j2ee-logging-nasil-yapilmali/</link>
+        <guid isPermaLink="true">http://localhost:4000/j2ee-logging-nasil-yapilmali/</guid>
+        
+        <category>j2eeLoglama javaLoglama loglamaNasılYapılmalı</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Eureka,Hystrix,Circuit breaker nedir ?</title>
+        <description>&lt;p&gt;Burda anlatılmış – &amp;gt; &lt;a href=&quot;https://medium.com/trendyol-tech/nedir-bu-circuit-breaker-pattern-2d3d34948767&quot;&gt;Bu aralar spring cloud eureka server ile mimariler üzerine araştırma yaparken ilgilimizi çeken konulardan biri!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Oct 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/eureka-hystrix-circuit-breaker-nedir/</link>
+        <guid isPermaLink="true">http://localhost:4000/eureka-hystrix-circuit-breaker-nedir/</guid>
+        
+        <category>circuitBreakerPatternNedir resiliencyNedir faultTolarenceNedir HystrixNedir</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>12 factor app nedir ?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Faydalı olabilir –&amp;gt; &lt;a href=&quot;https://www.youtube.com/watch?v=ttg5QGv9Uvo&quot;&gt;Burdan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 26 Sep 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/12-factor-app-nedir/</link>
+        <guid isPermaLink="true">http://localhost:4000/12-factor-app-nedir/</guid>
+        
+        <category>12faktorappNedir 12faktörAppNedir</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Quarkus Nedir ? Helidon Nedir ?</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Alternatif server framework arayışı içinde olanlara güzel bir karşılaştırma –&amp;gt; &lt;a href=&quot;https://medium.com/mehmetcemyucel/spring-java-hantal-mi-graalvm-quarkus-giris-241a9614c23a&quot;&gt;Quarkus&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;ve Oracle Helidon –&amp;gt; &lt;a href=&quot;https://youtu.be/SDI6ci2XsCQ&quot;&gt;Java Libraries for Writing Microservices&lt;/a&gt;&lt;/li&gt;
@@ -26,7 +67,7 @@
       </item>
     
       <item>
-        <title>GraphQL nedir GraphQL vs Rest</title>
+        <title>GraphQL nedir ? GraphQL vs Rest</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Uzun bir aradan sonra (Mac beta update sağolsun jekkly problemleri ile uğraştırdı);&lt;/li&gt;
   &lt;li&gt;GraphQL hakkında güzel bir sunum –&amp;gt; https://youtu.be/SXaqNuY9mYo&lt;/li&gt;
@@ -248,125 +289,6 @@ GNT’lerinizi ERC20 desteği olan herhangi bir cüzdanda saklayabilirsiniz. En 
         
         
         <category>kripto</category>
-        
-      </item>
-    
-      <item>
-        <title>Ataleti Yenenler</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Örnek insanlar, Pes etmeyenler, Başarı hikayeleri&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hayallerinin Peşinden Gidenler –&amp;gt; https://youtu.be/C2ZelcvyDqk&lt;/li&gt;
-  &lt;li&gt;0’dan 100 Milyon Dolara –&amp;gt; https://youtu.be/fWr9h8cO5PI&lt;/li&gt;
-  &lt;li&gt;Zeliha AĞRIS –&amp;gt; https://youtu.be/rdDHpZn1yRQ&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 18 May 2019 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/ataleti-yenenler/</link>
-        <guid isPermaLink="true">http://localhost:4000/ataleti-yenenler/</guid>
-        
-        <category>HayallerininPeşindenGidenler</category>
-        
-        <category>0'dan100MilyonDolara</category>
-        
-        
-        <category>konuDışı</category>
-        
-      </item>
-    
-      <item>
-        <title>Telnet ile mail</title>
-        <description>&lt;p&gt;İlk olarak mail server’a telnet ile 25 portu üzerinde bağlanalım.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;telnet mailserver.com.tr 25&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ardından;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;HELO deneme.com.tr&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ardından;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;mail from: deneme@deneme.com.tr&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ardından;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;rcpt to: fatih.aslan@domain.com&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ardından(mail içeriğini bu kısımda hazırlayacağız);&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;data&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Daha sonra(subject);&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;subject: deneme&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;“bu kısımda mail içeriği yani mesaj bloğu“&lt;/p&gt;
-
-&lt;p&gt;Ardırdan(nokta işareti mailimiz tamam oldu, gönder manasına gelmektedir);&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;İşlem bu kadar. son olarak çıkış için,&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;quit&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 16 May 2019 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/telnet-ile-mail/</link>
-        <guid isPermaLink="true">http://localhost:4000/telnet-ile-mail/</guid>
-        
-        <category>telnet</category>
-        
-        <category>mail</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ubuntu Kurulum Sonrası</title>
-        <description>&lt;p&gt;Ubuntu Kurulum sonrası gerekli olanlar listesi…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;idea&lt;/li&gt;
-  &lt;li&gt;yakuake&lt;/li&gt;
-  &lt;li&gt;kdiff3&lt;/li&gt;
-  &lt;li&gt;vscode&lt;/li&gt;
-  &lt;li&gt;brave&lt;/li&gt;
-  &lt;li&gt;jdk/jd-gui&lt;/li&gt;
-  &lt;li&gt;git/smartgit&lt;/li&gt;
-  &lt;li&gt;docker/gradle&lt;/li&gt;
-  &lt;li&gt;datagrip/postman&lt;/li&gt;
-  &lt;li&gt;vlc/odio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;sonra ekleme yapalım…&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 May 2019 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/ubuntu-kurulum-sonrasi/</link>
-        <guid isPermaLink="true">http://localhost:4000/ubuntu-kurulum-sonrasi/</guid>
-        
-        <category>ubuntu</category>
-        
-        <category>kurulum</category>
-        
-        <category>uygulamalar</category>
-        
         
       </item>
     
