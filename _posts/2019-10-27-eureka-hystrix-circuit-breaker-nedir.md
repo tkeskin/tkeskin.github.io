@@ -4,4 +4,5 @@ layout: post
 tag: circuitBreakerPatternNedir resiliencyNedir faultTolarenceNedir HystrixNedir
 ---
 
-Burda anlatılmış -- > [Bu aralar spring cloud eureka server ile mimariler üzerine araştırma yaparken ilgilimizi çeken konulardan biri!](https://medium.com/trendyol-tech/nedir-bu-circuit-breaker-pattern-2d3d34948767)
+- Burda anlatılmış -- > [Bu aralar spring cloud eureka server ile mimariler üzerine araştırma yaparken ilgilimizi çeken konulardan biri!](https://medium.com/trendyol-tech/nedir-bu-circuit-breaker-pattern-2d3d34948767)
+- Atlamışız faydalı olur --> [Bonus](https://youtu.be/pkf2f41NwU0)
