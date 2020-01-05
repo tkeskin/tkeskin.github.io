@@ -11,3 +11,4 @@ categories: konuDışı
 - 0'dan 100 Milyon Dolara --> https://youtu.be/fWr9h8cO5PI
 - Zeliha AĞRIS --> https://youtu.be/rdDHpZn1yRQ
 - Mübaşirlikten Avukatlığa --> https://youtu.be/JAZcqEyAC_M
+- Oyunu Kim Kazanır --> [Semih SAYGINER](https://youtu.be/63M38xfMXYI)
